@@ -163,6 +163,7 @@ class Ui_MainWindow(object):
         self.add_functions()
 
         self.is_equal = False
+        MainWindow.setFixedSize(320,420)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
